@@ -17,11 +17,11 @@ public class Sale {
 	private Long id;
 	private Integer visited;
 	private Integer deals;
-	private Double amount;
+	private Double amount;//valor
 	private LocalDate date;
 	@ManyToOne
 	@JoinColumn(name = "seller_id")
-	private Seller seller;
+	private Seller seller;//vendedor
 	
 	public Sale() {
 	}
