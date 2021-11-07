@@ -1,0 +1,1 @@
+export type SaleSum = {SellerName: string, Sum: number};
